@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* common styles  */
+body{
+    font-family: 'Lato', sans-serif;
+}
+.btn-primary{
+    color: #FFF;
+font-size: 20px;
+font-weight: 700;
+background: #E55473;
+padding: 20px 43px;
+border: 0;
+}
+.section-title{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+
+
+/* header styles  */
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.header-info-container{
+    width: 50%;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.header-info-container2{
+    width: 70%;
+}
+.header-title{
+    color: #272727;
+font-size: 80px;
+font-weight: 900;
+margin-bottom: 20px;
+}
+.header-des{
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+margin-bottom:20px;
+padding-right: 45px;
+}
+.header-img-container{
+    width: 50%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: left;
+}
+
+
+/* featured section styles  */
+.featured{
+    margin:130px 240px;
+   
+}
+.featured-des{
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+margin-top: 20px;
+margin-bottom:45px;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+text-align: center;
+}
+/* .featured-des-container */
+.featured-box-container{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 25px; */
+}
+.featured-box1{
+    border:0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 115px 70px 50px;
+}
+.featured-box2{
+    border: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 115px 70px 50px;
+}
+.featured-box3{
+    border: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 115px 70px 50px;
+}
+.featured-box-container img{
+    width: 320px;
+    height: 350px;
+    border: 0;
+}
+.img-des{
+color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+text-decoration-line: underline;
+padding-top: 30px;
+}
+
+
+
+
