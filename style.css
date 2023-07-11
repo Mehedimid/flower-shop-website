@@ -137,7 +137,7 @@ padding-top: 10px;
     align-items: center;
     margin:130px 0;
     padding: 130px 150px;
-    /* background: rgba(229, 84, 115, 0.05); */
+    background: rgba(229, 84, 115, 0.10);
 }
 .hd-info-container{
    width: 50%;
@@ -229,3 +229,33 @@ input{
 kd{
     background-color: rgba(0, 0, 0,8);
 }
+
+
+
+
+
+/* footer styles starts from here  */
+footer{
+     
+    padding-top: 130px; 
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.footer-des{
+    color:white;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 15px auto;
+    width: 40%;
+    }
+    .ft-flower{
+        color:#E55473; 
+    }
+    .footer-copyright{
+        color: rgba(255, 255, 255, 0.40);
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+
