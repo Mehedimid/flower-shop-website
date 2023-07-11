@@ -8,22 +8,24 @@ body{
 }
 .btn-primary{
 color: #FFF;
-font-size: 20px;
+font-size: 16px;
 font-weight: 700;
 background: #E55473;
-padding: 20px 43px;
+padding: 10px 20px;
 border: 0;
 border-radius: 8px;
 }
 .section-title{
     color: #272727;
 text-align: center;
-font-size: 40px;
+font-size: 30px;
 font-weight: 800;
+
+
 }
 
 
-/* header styles  */
+/* header section styles start from here  */
 .header-container{
     display: flex;
     justify-content: space-between;
@@ -37,21 +39,22 @@ font-weight: 800;
     justify-content: center;
 } 
 .header-info-container2{
-    width: 70%;
+    width: 60%;
+   
 }
 .header-title{
     color: #272727;
-font-size: 80px;
+font-size: 45px;
 font-weight: 900;
 margin-bottom: 20px;
 }
 .header-des{
     color: rgba(39, 39, 39, 0.60);
 font-family: Lato;
-font-size: 18px;
+font-size: 12px;
 font-weight: 400;
 margin-bottom:20px;
-padding-right: 45px;
+/* padding-right: 50px; */
 }
 .header-img-container{
     width: 50%;
@@ -59,62 +62,77 @@ padding-right: 45px;
     display: flex;
     justify-content: left;
 }
+.header-img{
+    width: 400px;
+    height: 450px;
+}
 
 
-/* featured section styles  */
+
+
+/* featured section styles start from here*/
 .featured{
-    margin:130px 270px;
+    margin:130px 230px;
 }
 .featured-des{
 color: rgba(39, 39, 39, 0.60);
 font-family: Lato;
-font-size: 18px;
+font-size: 12px;
 font-weight: 400;
-margin-top: 20px;
-margin-bottom:45px;
-margin-left: auto;
-margin-right: auto;
+margin: 25px auto;
 width: 40%;
 text-align: center;
 }
-/* .featured-des-container */
 .featured-box-container{
     display: flex;
     justify-content: space-between;
-    /* gap: 25px; */
+    gap: 20px;
 }
-.featured-box1{
+.pink-fl{
     border:0;
-    border-radius: 300px 300px 0px 0px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    /* border-radius: 300px 300px 0px 0px; */
     background: rgba(167, 33, 98, 0.15);
-    padding: 115px 70px 50px;
+    padding: 40px 30px 0px;
+    /* height: 270px; */
 }
-.featured-box2{
+.red-fl{
     border: 0;
-    border-radius: 300px 300px 0px 0px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    /* border-radius: 300px 300px 0px 0px; */
     background: rgba(5, 151, 160, 0.15);
-    padding: 115px 70px 50px;
+    padding: 40px 30px 0px;
+    /* height: 270px; */
 }
-.featured-box3{
+
+.yellow-fl{
     border: 0;
-    border-radius: 300px 300px 0px 0px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    /* border-radius: 300px 300px 0px 0px; */
     background: rgba(71, 125, 17, 0.15);
-    padding: 115px 70px 50px;
+    padding: 40px 30px 0px;
+    /* height: 270px; */
 }
 .featured-box-container img{
-    width: 320px;
-    height: 350px;
+    width: 220px;
+    height: 250px;
     border: 0;
 }
 .img-des{
 color: #272727;
 text-align: center;
-font-size: 24px;
+font-size: 14px;
 font-weight: 700;
 text-decoration-line: underline;
-padding-top: 30px;
+padding-top: 10px;
 }
 
+
+
+/* Hot deal section styles start from here*/
 
 
 
