@@ -168,7 +168,7 @@ margin: 25px auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(126, 124, 108, 0.15);
+    background:#eec095d0;
 }
 .del-info-container{
     border-right:1px solid crimson;
@@ -192,7 +192,7 @@ margin: 25px auto;
             color:rgb(23, 23, 66);
             font-size: 14px;
             font-weight: 700;
-            background: #def8e476;
+            background: #f8deea76;
             padding: 8px 14px;
             border: 1px solid calc();
             border-radius: 5px;
@@ -216,11 +216,14 @@ margin: 25px auto;
         text-align: left;
     }
     .d-box2{
-        border: 0;
+        /* border: 0; */
         width:40% ;
         margin-right: 50px;
         padding: 10px;
         text-align: 
+    }
+    .box{
+        box-shadow: 2px 2px 8px #78134294;
     }
     .box-des{
         margin: 10px ;
