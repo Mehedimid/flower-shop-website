@@ -9,11 +9,11 @@ body{
 .btn-primary{
 color: #FFF;
 font-size: 16px;
-font-weight: 700;
+font-weight: 400;
 background: #E55473;
-padding: 10px 20px;
+padding: 12px 20px;
 border: 0;
-border-radius: 8px;
+border-radius: 5px;
 }
 .section-title{
     color: #272727;
@@ -21,6 +21,8 @@ text-align: center;
 font-size: 30px;
 font-weight: 900;
 }
+
+
 
 
 /* header section styles start from here  */
@@ -68,9 +70,11 @@ margin-bottom:20px;
 
 
 
+
 /* featured section styles start from here*/
 .featured{
-    margin:130px 230px;
+    /* background-color: #e5547328; */
+    margin:130px 200px; 
 }
 .featured-des{
 color: rgba(39, 39, 39, 0.60);
@@ -83,39 +87,33 @@ text-align: center;
 .featured-box-container{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 5px;
 }
 .pink-fl{
     border:0;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    /* border-radius: 300px 300px 0px 0px; */
     background: rgba(167, 33, 98, 0.15);
     padding: 40px 30px 0px;
-    /* height: 270px; */
 }
 .red-fl{
     border: 0;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    /* border-radius: 300px 300px 0px 0px; */
     background: rgba(5, 151, 160, 0.15);
     padding: 40px 30px 0px;
-    /* height: 270px; */
 }
 
 .yellow-fl{
     border: 0;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    /* border-radius: 300px 300px 0px 0px; */
     background: rgba(71, 125, 17, 0.15);
     padding: 40px 30px 0px;
-    /* height: 270px; */
 }
 .featured-box-container img{
     width: 220px;
-    height: 280px;
+    height: 300px;
     border: 0;
 }
 .img-des{
@@ -129,6 +127,9 @@ padding-top: 10px;
 
 
 
+
+
+
 /* Hot deal section styles start from here*/
 .hot-deal-container{
     display: flex;
@@ -136,7 +137,6 @@ padding-top: 10px;
     align-items: center;
     margin:130px 0;
     padding: 130px 150px;
-    background-color: aqua ;
     /* background: rgba(229, 84, 115, 0.05); */
 }
 .hd-info-container{
@@ -154,7 +154,78 @@ margin: 25px auto;
     width: 250px;
     height: 300px;
 }
+.hot-deal-off{
+    color:#E55473; 
+}
 
 
 
 
+
+/* instagram section styles start from here*/
+.insta-container{
+    margin:130px 200px;
+}
+.insta-pic{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.insta-pic > img{
+    height: 250px;
+    width: 200px;
+}
+.insta-des{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 12px;
+font-weight: 400;
+margin: 25px auto;
+width: 40%;
+text-align: center;
+}
+
+
+
+
+
+/* latest deals section styles starts here  */
+.lts-deals{
+    margin:130px 200px;
+    background-image:url(Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding:130px 200px;
+}
+
+.lts-des{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 12px;
+font-weight: 400;
+margin: 10px auto;
+}
+.subscribe{
+    margin-top: 25px;
+    gap: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+[placeholder="Enter your email here...."]{
+    color: rgba(39, 39, 39, 0.60);
+   text-align: left;
+   font-size: 12px;
+   font-weight: 400;
+}
+input{
+    width: 75%;
+    padding: 5px 0;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.sub-btn{
+    width: 20%;
+}
+kd{
+    background-color: rgba(0, 0, 0,8);
+}
