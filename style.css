@@ -241,7 +241,6 @@ margin: 25px auto;
         text-align: left;
     }
     .d-box2{
-        /* border: 0; */
         width:40% ;
         margin-right: 50px;
         padding: 10px;
@@ -329,9 +328,7 @@ input{
 .sub-btn{
     width: 20%;
 }
-kd{
-    background-color: rgba(0, 0, 0,8);
-}
+
 
 
 
